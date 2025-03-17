@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# IDEs y editores
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Otros archivos sensibles
+.env
+dist/
+coverage/
