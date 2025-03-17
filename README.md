@@ -59,6 +59,7 @@ npm install
 Desde la raíz del proyecto, utiliza **PM2** para iniciar ambos microservicios:
 
 ```bash
+pm2 start auth-service/src/server.js --name auth-service
 pm2 start task-service/src/server.js --name task-service
 ```
 
